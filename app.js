@@ -20,3 +20,4 @@ const dragbar = (e) => {
 };
 
 container.addEventListener('mousemove', dragbar);
+container.addEventListener('touchmove', dragbar);
